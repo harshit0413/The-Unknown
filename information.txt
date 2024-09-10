@@ -1,0 +1,23 @@
+next js edge time framework h
+user ki request ke hisab se continue hoti h
+next js ke functin on time hi run krte h
+next js me hmesha all time running nhi hoti jesse jaise demand hogi tb hi run hoti hi
+
+ek request ke baad sanme request le rhe toh database choke ho skta hi
+
+------------------------------------------
+
+email verifictsion and no username duplicate: -
+
+if existingUserByEmail Exists Then
+    if existingUserByEmail.is verified Then
+        sucess:false,
+    ELSE
+        //save the updated user
+    END if
+ELSE
+    //creste new user with the provided details
+    // save the new user
+END IF
+
+------------------------------------------
